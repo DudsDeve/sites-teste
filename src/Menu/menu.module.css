@@ -1,0 +1,45 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+  
+    justify-content: space-between;
+    background-color: var(--blue-2);
+    
+ }
+
+ .header ul a:hover, .client:hover{
+    color: #38D1D1;
+    transition: 0.2s;
+ }
+ .header img {
+     height: 2rem;
+ }
+
+.header ul {
+ display: flex;
+ list-style: none;
+ gap:2rem;
+
+}
+
+.header div {
+ display: flex;
+ gap: 1.5rem;
+ color: var(--white);
+}
+.header div a{
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+.demo{
+    background: linear-gradient(#19BD56,#27E16B);
+    transition: 0.2s;
+    opacity: 0.87;
+}
+.demo:hover{
+    background: linear-gradient(#19BD56,#27E16B);
+    opacity: 1;
+}
+

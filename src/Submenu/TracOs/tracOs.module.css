@@ -1,0 +1,32 @@
+main{
+    display: flex;
+    background-color: var(--white-2);
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+h2,h3 {
+    color: var(--blue-3);
+}
+
+.bar{
+    background-color: var(--blue-3);
+    color: transparent;
+    height: 0.5px;
+    margin-bottom: 5px;
+}
+.sensor {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    
+}
+
+.sensor:hover{
+    background-color: var(--blue-2);
+    transition: 0.3s;
+    border-radius: 7px;
+}

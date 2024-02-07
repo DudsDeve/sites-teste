@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+:root {
+
+    --white: #ffff;
+    --white-2: #F8FAFC;
+
+    --blue-hover:#38D1D1;
+    --blue-4: #1D367F;
+    --blue-3: #1D4ED8;
+    --blue-2: #DBEAFE;
+    --blue-1: #EFF6FF;
+
+    --green-left: #19BD56;
+    --green-right:#27E16B;
+}
